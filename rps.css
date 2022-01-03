@@ -1,7 +1,23 @@
-.btncontainer{
-    background-color:blue;
-}
+body {
+    background-color: lightblue;
+  }
 
-#body{
-    background-color:orange;
-}
+  #selectors { /* Container that holds buttons */
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .btn { /* Button Styling */
+    background-color: lightblue; 
+    border: none; 
+    color: black;
+    font-size: 50px;
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Icon size increase on hover */
+  .btn:hover {
+    font-size:80px;
+  }
