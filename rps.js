@@ -1,3 +1,6 @@
+getElementById("rock").addEventListener("click", userSelection);
+getElementbyId("paper").addEventListener("click", userSelection);
+getElementbyId("scissors").addEventListener("click", userSelection);
 
     function computerPlay() { //computer generates a random answer.
         let random = ["rock", "paper", "scissors"];
