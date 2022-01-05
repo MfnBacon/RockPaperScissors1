@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+  }
+
+  #messageBox{
+    font-size:15px;    
+  }
+
+#gameBox{
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:250px;
+  width:400px;
+  margin:0 auto;
+}
+
+.resetBtn{
+  border:1px solid black;
+  box-shadow: 2px 2px black;
+  color:black;
+  border-radius:5px 5px 5px;
+  padding:2px;
+  font-size:10px;
+}
+.resetBtn:active{
+  box-shadow:none;
+  transform:translate(3px, 2px);
+}
+g
+.section{
+  border:1px solid red;
+}
+
+p {
+  display:inline-flex;
+  margin-right:5px;
+}
+
+.info{
+  color:black;
+}
+
+  .btn { /* User Button Styling */
+    background-color: lightblue; 
+    border: none; 
+    color: black;
+    font-size: 50px;
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  .userTitle {
+    font-size: 12px;
+  }
+  
+  /* Icon size increase on hover */
+  .btn:hover {
+    color: azure;
+  }
+
+  .resetBtn:hover {
+  color:azure;
+  cursor:pointer;
+  
+}
